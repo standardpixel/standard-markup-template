@@ -19,6 +19,9 @@ not be ideal for web applications.
     This DIV element wraps all of the content and is used as the 
     root for all styles
 
+  * header
+    This DIV element holds header information.
+
   * content_**number_here**
     This DIV element is a main content section. Any number of these 
     can be added to a page with a number added to the id to indicate 
