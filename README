@@ -1,0 +1,35 @@
+**
+Standard Markup Template v1.0
+
+Author: Eric Gelinas
+Company: StandardPixel LLC
+Contact: info@standardpixel.com
+**
+
+** Summary **
+This is a markup template for creating information websites that will 
+be styled with CSS. The Markup utilizes tags that will let browsers 
+fall back on default styles if a style-sheet is not available. This 
+means that a site can progressively enhance styles allowing CSS to 
+fail gracefully. This markup is ideal for information sites and may 
+not be ideal for web applications.
+
+** Containers by ID **
+  * container:
+    This DIV element wraps all of the content and is used as the 
+    root for all styles
+
+  * header
+    This DIV element holds header information.
+
+  * content_**number_here**
+    This DIV element is a main content section. Any number of these 
+    can be added to a page with a number added to the id to indicate 
+    its order within the document, in relation to the other main 
+    content sections.
+
+  * navigation
+    This DIV element holds the navigation. This element is optional.
+
+  * footer
+    This DIV element holds footer information.
